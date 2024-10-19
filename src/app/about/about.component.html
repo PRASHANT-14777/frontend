@@ -1,0 +1,59 @@
+<div class="row">
+  <div class="col-md-6">
+    <h1 class="letter pt-5">About Me</h1>
+    <p class="letter pt-3">
+      Hello! I’m <span class="pink">Prashant Singh</span>, and I am excited to
+      introduce myself as a Angular developer. I’ve taken the initiative to
+      self-learn Angular and web development over the past 3 Years, and I’m
+      passionate about building dynamic web applications. Motivated and
+      detail-oriented BCA graduate seeking a position as a <span class="pink">Angular Developer</span>.
+      Eager to apply academic knowledge and hands-on experience gained through
+      coursework and projects to contribute to innovative web development
+      projects.
+    </p>
+
+    <ul>
+      <li>
+        <button
+          mat-raised-button
+          color="accent"
+          routerLink="skills"
+          routerLinkActive="active"
+        >
+          Technical Skills
+        </button>
+      </li>
+      <li>
+        <button
+          mat-raised-button
+          color="accent"
+          routerLink="experience"
+          routerLinkActive="active"
+        >
+          Experience
+        </button>
+      </li>
+      <li>
+        <button
+          mat-raised-button
+          color="accent"
+          routerLink="education"
+          routerLinkActive="active"
+        >
+          Education
+        </button>
+      </li>
+    </ul>
+    <div class="display border p-3">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+  <div class="col-md-6">
+    <div class="image-container">
+      <div class="image">
+        <img src="\assets\IMAGES\normal.png" alt="" />
+      </div>
+    </div>
+  </div>
+</div>

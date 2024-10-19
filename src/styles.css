@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+html, body { 
+    height: 100%;
+    /* background: black; */
+}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: black; }
+
+.letter{
+    color: white;
+}
+.letter::first-letter{
+    color: #F72D93;
+    font-size: 40px;
+    font-weight: bold;
+}
+.pink{
+    color: #F72D93;
+}
+.card{
+    margin-top: 10px;
+}
+
+
+

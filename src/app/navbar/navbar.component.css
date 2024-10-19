@@ -1,0 +1,9 @@
+.navbar{
+    border-bottom: 5px solid grey;
+}
+.nav-link:hover{
+    background: #F72D93;
+}
+.active{
+    background: #F72D93;
+}
